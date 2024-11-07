@@ -6,7 +6,7 @@ import google.generativeai as genai
 load_dotenv()  # Load environment variables
 
 # Configure API
-genai.configure(api_key=api_key) # Store API key securely in .env file
+genai.configure(api_key='AIzaSyCayc50a3SUDeijDJdsiHWSbgRyWytt6FI') # Store API key securely in .env file
 
 # Initialize the GenerativeModel for the Gemini Pro model
 model = genai.GenerativeModel("gemini-pro")
