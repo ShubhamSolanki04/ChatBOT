@@ -21,6 +21,8 @@ def get_gemini_response(conversation_history):
 
 # Initialize our Streamlit app
 st.set_page_config(page_title="Q&A Demo")
+st.title('chatbot by shubham solanki')
+
 st.header("Gemini LLM Application")
 
 # Initialize session state for chat history if it doesn't exist
